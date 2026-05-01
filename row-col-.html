@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind Row & Col Layout</title>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-8">
+
+  <!-- Container -->
+  <div class="max-w-6xl mx-auto">
+
+    <h1 class="text-3xl font-bold mb-6 text-center">
+      Tailwind CSS Row & Column Layout
+    </h1>
+
+    <!-- Row -->
+    <div class="grid grid-cols-12 gap-4">
+
+      <!-- Col 4 -->
+      <div class="col-span-12 md:col-span-4 bg-blue-500 text-white p-6 rounded-xl shadow">
+        <h2 class="text-xl font-semibold mb-2">Column 1</h2>
+        <p>Bu alan 12 kolonluk grid içinde 4 kolon kaplar.</p>
+      </div>
+
+      <!-- Col 4 -->
+      <div class="col-span-12 md:col-span-4 bg-green-500 text-white p-6 rounded-xl shadow">
+        <h2 class="text-xl font-semibold mb-2">Column 2</h2>
+        <p>Responsive yapı sayesinde mobilde tam genişlik olur.</p>
+      </div>
+
+      <!-- Col 4 -->
+      <div class="col-span-12 md:col-span-4 bg-purple-500 text-white p-6 rounded-xl shadow">
+        <h2 class="text-xl font-semibold mb-2">Column 3</h2>
+        <p>Desktop görünümde yan yana hizalanır.</p>
+      </div>
+
+    </div>
+
+    <!-- Second Row -->
+    <div class="grid grid-cols-12 gap-4 mt-8">
+
+      <!-- Large Column -->
+      <div class="col-span-12 md:col-span-8 bg-white p-6 rounded-xl shadow">
+        <h2 class="text-2xl font-bold mb-3">8 Column Section</h2>
+        <p>
+          Bu bölüm grid sisteminde 8 kolon kaplar.
+        </p>
+      </div>
+
+      <!-- Sidebar -->
+      <div class="col-span-12 md:col-span-4 bg-gray-800 text-white p-6 rounded-xl shadow">
+        <h2 class="text-xl font-semibold mb-3">Sidebar</h2>
+        <p>4 kolonluk sidebar alanı.</p>
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
