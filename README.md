@@ -40,6 +40,3 @@ This repository provides a structured day-by-day curriculum with practical examp
 - Building reusable UI structures
 - Creating a complete landing page project
 
-
-├── day-14-mini-project/
-└── README.md
